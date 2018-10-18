@@ -1,53 +1,130 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>practice</title>
-		<link href="https://fonts.googleapis.com/css?family=Roboto:800"Ó rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-		<link rel="stylesheet"
- href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-			<nav>
-				<div class="nav-container">
-					<ul class="logo">
-						<img src="newage.jpg" alt="" height="70px">
-					</ul>
-					<ul class="links">
-						<li><a href="index.html">Developer</a></li>
-						<!-- <li><a href="dj.html">DJ</a></li> -->
-						<li><a href="">Contact</a></li>
-						<li><a href="">My Journey</a></li>
-					</ul>
-					<ul class="icons">
-						<a href=""><i class="fas fa-map-marker-alt fa-2x"></i></a>
-					</ul>
-				</div>
-			</nav>
-			<main>
-				<div class="container">
-					<div class="projects animated bounceInLeft">
-						<div class="site">
-							<a href="https://codepen.io/djnewage/pen/zJbOQX"><img src="Gridsite.png" alt=""></a>
-						</div>
-						<div class="site">
-							<a href="https://djnewage.github.io/Movie-Ui/"><img src="movie ui.png" alt=""></a>
-						</div>
-						<div class="site">
-							<a href="https://codepen.io/djnewage/pen/JaMLXR"><img src="webster.png" alt=""></a>
-						</div>
-						<div class="site">
-							<a href="https://codepen.io/djnewage/pen/jvbajY"><img src="split.png" alt=""></a>
-						</div>
-					</div>
-				</div>
-			</main>
 
-			<script>
-				$('#yourElement').site('animated bounceOutLeft');
-			</script>
-	</body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>practice</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:800" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav>
+		<div class="nav-container">
+			<ul class="logo">
+				<img src="Tristan1.jpg" alt="" height="70px">
+			</ul>
+			<ul class="links">
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<!-- <li><a href="dj.html">DJ</a></li> -->
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<ul class="icons">
+				<a href=""><i class="fas fa-map-marker-alt fa-2x"></i></a>
+			</ul>
+		</div>
+	</nav>
+	<section id="journey">
+		<div id="about">
+			<p>Hello there! My name is Tristan Sacotte and I'm a Front End Developer Currently looking for a Front End Developer position. (Willing to relocate)
+				<br>
+				<br> I started my journey as a self-taught web developer just recently when I first discovered the biggest CMS in the industry, WordPress. Ever since I have fallen in love with web development and spend most of my days taking my craft to
+				the next level.
+				<br>
+				<br> Now a days I tend to code all of my projects from scratch in order to deliver a unique experience to every company
+				<br>
+				<br> Like many other people I enjoy spending my free time increasing my knowledge of Web Development and building new and challenging projects.
+				<br>
+				<br> Some of my favorite things to do include: <br> - 1 on 1 tutoring on development. <br> - Contributing to open source projects. <br> - Learning modern standards and best practices of the industry. <br> - Volunteering as a wrestling coach for my
+				former High School. <br>
+			</p>
+		</div>
+	</section>
+	<main>
+		<div class="container">
+			<h1>Projects</h1>
+			<div id="projects" class="wow bounceInUp">
+				<div class="site">
+					<h5>CSS Grid Website</h5>
+					<a href="https://codepen.io/djnewage/pen/zJbOQX"><img src="Gridsite.png" alt=""></a>
+					<button type="button" name="button">View Code </button>
+				</div>
+				<div class="site">
+					<h5>Social Media Movie Ui</h5>
+					<a href="https://djnewage.github.io/Movie-Ui/"><img src="movie ui.png" alt=""></a>
+					<button type="button" name="button">View Code </button>
+				</div>
+				<div class="site">
+					<h5>Merriam Webster App</h5>
+					<a href="https://codepen.io/djnewage/pen/JaMLXR"><img src="webster.png" alt=""></a>
+					<button type="button" name="button">View Code </button>
+				</div>
+				<div class="site">
+					<h5>Split Landing Page</h5>
+					<a href="https://codepen.io/djnewage/pen/jvbajY"><img src="split.png" alt=""></a>
+					<button type="button" name="button">View Code </button>
+				</div>
+			</div>
+		</div>
+	</main>
+
+
+	<section id="skills" class="wow bounceInRight">
+		<h1>Skills</h1>
+		<div class="logos">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="">
+			<img src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" alt="">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/2000px-CSS3_logo_and_wordmark.svg.png" alt="">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2000px-Sass_Logo_Color.svg.png" alt="">
+			<img src="https://fuzati.com/wp-content/uploads/2016/12/Bootstrap-Logo.png" alt="">
+			<img src="https://s.w.org/style/images/about/WordPress-logotype-wmark.png" alt="">
+			<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="">
+		</div>
+	</section>
+
+
+<section id="contact" class="wow bounceInLeft">
+	<div class="contact-cards">
+		<div>
+			<i class="fas fa-envelope fa-2x"></i><span>Email</span>
+			<p>tristansacotte@gmail.com</p>
+		</div>
+		<div>
+			<i class="fas fa-mobile-alt fa-2x"></i><span>Contact</span>
+			<p>1-262-321-5588</p>
+		</div>
+	</div>
+	<div id="contact-form">
+		<h1>Contact Me</h1>
+		<form action="https://formspree.io/tristansacotte@gmail.com" method="post">
+			<input type="text" name="First name" value="" placeholder="First Name">
+			<input type="text" name="Last name" value="" placeholder="Last Name">
+			<br>
+			<input type="text" name="Your Email" value="" placeholder="Your Email">
+			<br>
+			<input type="text" name="Your Message" value="" placeholder="Your Message">
+			<div class="btn">
+				<button type="submit" name="button">Submit</button>
+			</div>
+		</form>
+	</div>
+</section>
+
+<!-- Javascript -->
+<script src="wow.min.js"></script>
+					 <script>
+					 new WOW().init();
+					 </script>
+
+	<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</body>
+
 </html>
