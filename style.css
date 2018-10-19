@@ -100,13 +100,14 @@ li {
 .site {
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 
 }
 
 .site img {
   height: 200px;
-  max-width: 100%;
-  margin: 20px 20px;
+  width: auto;
+  margin: 20px 30px;
   transition: .6s all ease-in-out;
   -webkit-box-shadow: -1px 13px 41px 6px rgba(173,173,173,1);
 -moz-box-shadow: -1px 13px 41px 6px rgba(173,173,173,1);
@@ -153,7 +154,7 @@ button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 #about p {
@@ -189,6 +190,24 @@ button:hover {
 box-shadow: -1px 13px 41px 6px rgba(173,173,173,1);
 opacity: 1;
 margin: 30px;
+}
+
+.code {
+  background-color: transparent;
+   border: 1px solid black;
+   color: red;
+   padding: 15px 10px;
+   text-align: center;
+   font-size: 16px;
+   cursor: pointer;
+   margin: 5px;
+}
+
+.code:hover {
+  background-color: black;
+  color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 
 #contact {
